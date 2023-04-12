@@ -80,7 +80,7 @@ logo = ("""
 \033[1;94m _/ // /|  / /|  / /_/ /___/ /_/ /|  / / /    
 \033[1;95m/___/_/ |/ |_/\____/\____/____/ |_/_/     \033[1;92m
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mMohammed Farou           ┃
+ ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mMohammed Farouq           ┃
  ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
  ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE Tool                       ┃
  ┃ [✓] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
@@ -240,7 +240,7 @@ def rcrack1(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[INNOCENT] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[LOADING] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
