@@ -8,7 +8,7 @@ from datetime import datetime
 from time import sleep
 from os import system as s
 from time import sleep as waktu
- try: 
+try: 
   import requests
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
     import mechanize
