@@ -1,6 +1,4 @@
 #import os
-  
- from os import path 
  import os,base64,zlib,pip,urllib,time,random,requests 
  from bs4 import BeautifulSoup as sop 
  from bs4 import BeautifulSoup 
