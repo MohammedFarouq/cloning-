@@ -16,8 +16,7 @@ try:
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
- except:pass  fbks=(f'com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite') 
-  
+ except:pass  
  ugen=[] 
  ugen=[] 
  useragent=[] 
