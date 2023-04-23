@@ -15,8 +15,7 @@ try:
  import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
-    os.system('pip install bs4')
- except:pass  
+    os.system('pip install bs4') 
  ugen=[] 
  ugen=[] 
  useragent=[] 
