@@ -16,12 +16,6 @@ try:
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4') 
- ugen=[] 
- ugen=[] 
- useragent=[] 
- uaku2=[] 
- ugen2=[] 
- ugen=[] 
  for xd in range(10000): 
      aa='Mozilla/5.0 (Linux; Android 13;' 
      b=random.choice(['7.0','8.1.0','9','10','11','12']) 
